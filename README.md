@@ -1,4 +1,5 @@
-# Sveltekit + Supabase Auth Starter
+# Sveltekit + Supabase Auth Starter 
+## Now with Githib OAuth
 
 This is a starter template for [SvelteKit](https://kit.svelte.dev) apps with
 [Supabase](https://supabase.io) authentication. Uses the new Supabase SSR libraries rather than the
