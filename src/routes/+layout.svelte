@@ -29,5 +29,8 @@
 		return supabaseAuthStateChangeSubscriptionStore.subscribe(() => {});
 	});
 </script>
+<svelte:head>
+  <title>Tutors</title>
+</svelte:head>
 
 <slot />
