@@ -11,7 +11,7 @@
 	let showProgress = false;
 	onMount(async () => {
 	  if (data.session) {
-		window.location.href = "/dashboard";
+		window.location.href = "/protected";
 	  }
 	});
   
@@ -20,8 +20,8 @@
 	  const { data, error } = await supabase.auth.signInWithOAuth({
 		provider: "github",
 		options: {
-		  redirectTo: `${$page.url.origin}/auth/callback`
-		}
+        	redirectTo: `${$page.url.origin}/auth/callback`
+      }
 	  });
 	}
   </script>

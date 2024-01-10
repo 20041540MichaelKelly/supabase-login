@@ -15,7 +15,7 @@ deprecated auth helpers.
 
 ## Demonstration
 
-- Navigate to the dev server at (http://localhost:5173)
+- Navigate to the dev server at (http://localhost:54324)
 - Either navigate to the protected route, or click 'sign in'. Either will bring you to the login
   page. (NOTE: you may experience a reload in development only when the supabase auth helper
   dependency is re-optimized by vite - this does not occur in production builds.)
